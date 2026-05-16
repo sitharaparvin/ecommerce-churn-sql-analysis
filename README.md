@@ -49,10 +49,10 @@ The dataset contains customer information such as:
 ---
 
 ## 📊 Key Insights
-- Identified factors contributing to customer churn  
-- Analyzed complaint behavior among churned customers  
-- Found most preferred payment methods  
-- Discovered trends in customer ordering patterns  
+- Identified 16.84% overall churn rate with 948 churned customers; churned users averaged only 3 months tenure, signaling critical early lifecycle risk
+- Quantified revenue and service impact: $152,030 in cashback tied to churned customers; 53.6% of churned users had lodged complaints with avg satisfaction score of 3.0/5
+- Last-mile analysis using SQL CASE WHEN: Customers >15km from warehouse showed 21.0% churn vs 13.5% for <=10km — 1.6x higher attrition for far-distance segments
+- Payment behavior insight: Debit Card was most preferred mode among 1,956 active users, indicating lower-risk transaction profile for retention targeting
 
 ---
 
